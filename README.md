@@ -22,6 +22,13 @@ Search the Dikda digital archive with support for:
 - **Sorting**: Sort results by score, date, or other fields
 - **Field Selection**: Choose which fields to return in results
 
+### Get by PID
+
+Retrieve a specific document by its Persistent Identifier (PID/UUID):
+- Enter the PID/UUID (with or without "uuid:" prefix)
+- Configure which fields to return (optional)
+- Returns detailed information about the document
+
 ## Credentials
 
 No credentials required. The Dikda API is publicly accessible.
@@ -33,12 +40,22 @@ No credentials required. The Dikda API is publicly accessible.
 
 ## Usage
 
+### Search Operation
+
 1. Add the Dikda node to your workflow
-2. Select the Search operation
+2. Select the **Search** operation
 3. Choose your query type (Simple, Edismax, or Match All)
 4. Enter your search query (if not using Match All)
 5. Configure filters, faceting, grouping, and other options as needed
 6. Execute the workflow
+
+### Get by PID Operation
+
+1. Add the Dikda node to your workflow
+2. Select the **Get by PID** operation
+3. Enter the document PID/UUID (e.g., `uuid:99a11ca9-9872-4f89-a682-432e6b54da53` or just `99a11ca9-9872-4f89-a682-432e6b54da53`)
+4. Optionally configure fields to return (leave empty for all fields)
+5. Execute the workflow
 
 ## Resources
 
@@ -48,9 +65,10 @@ No credentials required. The Dikda API is publicly accessible.
 
 ## Version history
 
-### 0.1.0
+### 1.0.0
 - Initial release
 - Search operation with query types (Simple, Edismax, Match All)
+- Get by PID operation for retrieving specific documents
 - Model filtering
 - Faceting support
 - Grouping support
