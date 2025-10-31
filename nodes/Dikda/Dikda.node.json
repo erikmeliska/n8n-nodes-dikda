@@ -1,0 +1,18 @@
+{
+	"node": "n8n-nodes-dikda",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Data", "Database"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://github.com/erikmeliska/n8n-nodes-dikda#credentials"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://github.com/erikmeliska/n8n-nodes-dikda"
+			}
+		]
+	}
+}
