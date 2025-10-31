@@ -1,6 +1,6 @@
 {
   "name": "n8n-nodes-dikda",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "n8n node for searching the Dikda digital archive (Slovak National Library)",
   "license": "MIT",
   "homepage": "https://dikda.snk.sk",
